@@ -10,11 +10,11 @@ Pocket hopping is a protein "pocket hopping" approach for drug repurposing, targ
 - Drug repositioning
 
 # Setup Environment
-## 1. Clone the current repo
+### 1. Clone the current repo
 ```bash
 git clone https://github.com/niubuying/PocketHop.git
 ```
-## 2.Installation
+### 2.Installation
 ```bash
 conda create -n PocketHop python=3.7
 conda activate PocketHop
@@ -24,7 +24,7 @@ pip install scikit-learn
 ```
 
 # Running Pocket hopping
-## 1.Data acquisition via pdb database:
+### 1.Data acquisition via pdb database:
 ```bash
 cd data_preparation
 python fetch_pdbs.py
@@ -36,15 +36,15 @@ cd data_preparation
 python generate_graphs.py
 ```
 
-## 2.Data preprocessing:
+### 2.Data preprocessing:
 ```bash
 python site_featurizer.py
 ```
-## 3.Train:
+### 3.Train:
 ```bash
 python training_graphbsm.py
 ```
-## 4.Predict:
+### 4.Predict:
 ```bash
 python predict_graphbsm.py
 ```
