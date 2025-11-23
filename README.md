@@ -3,6 +3,11 @@ Pocket hopping is a protein "pocket hopping" approach for drug repurposing, targ
 
 <img width="1604" height="750" alt="ab01a2e4-f91e-4ca1-bc2f-9651e200f7b4" src="https://github.com/user-attachments/assets/39dc76a5-5a4a-4d9c-9eee-275c04e5f656" />
 
+# The automated Pocket Hopping screening pipeline
+Consisting of the construction of the P-S-L (Protein–Site–Ligand) database and a target-adaptable automated workflow. First, the database is built by integrating high-quality curated binding sites from PDB complexes with the expanded activity-annotated chemical space of DrugSpaceX, encompassing not only known bioactive ligands but also a large number of computationally generated novel analogs, which breaks the limitations of traditional ligand redirection. For any given target protein, the pipeline automatically identifies its binding site, encodes it into a graph-based pocket representation, uses the Pocket Hopping model to predict non-homologous pockets with similar ligand-recognition patterns, and further retrieves relevant active ligands and their derived analogs from the P-S-L database to form a candidate compound library for downstream experimental evaluation—providing an efficient and innovative cross-target screening strategy for drug discovery.
+<img width="940" height="646" alt="image" src="https://github.com/user-attachments/assets/382fdcf9-fc57-41fd-91f4-ae34132bb524" />
+
+
 # Description
 
 **Things Pocket hopping can do**
